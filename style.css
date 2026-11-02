@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, rgba(255,229,217,0.8), rgba(138, 158, 177, 0.8)),
+                url('background\ image.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #4a2c2a;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #2a688f, #3bc4f1);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    box-shadow: 0 4px 15px rgba(255, 111, 97, 0.3);
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 15px;
+}
+
+/* Name Card */
+.name-card {
+    background-color: #fff5f0;
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: center;
+    margin-bottom: 32px;
+    box-shadow: 0 6px 20px rgba(255, 111, 97, 0.15);
+    border: 2px solid #506aac;
+}
+
+.name-card h1 {
+    font-size: 26px;
+    color: #4f497b;
+    margin-bottom: 8px;
+}
+
+.name-card .title {
+    color: #151e5e;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Section Cards */
+.section {
+    background-color: #fffdfb;
+    border: 3px solid #2c549f;
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin-bottom: 28px;
+    box-shadow: 0 6px 18px rgba(255, 111, 97, 0.12);
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #0f4c81;
+    margin-bottom: 14px;
+    border-bottom: 2.5px solid #7caae6;
+    padding-bottom: 7px;
+}
+
+.section ol {
+    padding-left: 22px;
+}
+
+.section li {
+    margin-bottom: 11px;
+    font-size: 15.5px;
+}
+
+.section a {
+    color: #4296c0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.section a:hover {
+    color: #4fbae8;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 25px;
+    color: #5b76b1;
+    font-size: 14px;
+    background: #b5dcf4;
+    border-top: 2px solid #098ba1;
+}
+.footer {
+    text-align: center;
+    padding: 25px 15px;
+    line-height: 1.8;
+}
+
+.source-link {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    border: 1px solid #e8a0bf;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.source-link:hover {
+    background-color: #fce4ec;
+    transform: translateY(-2px);
+}
+
+.footer p {
+    margin: 8px 0;
+}
+
+.footer small {
+    font-size: 12px;
+    opacity: 0.8;
+}
